@@ -10,19 +10,19 @@
     </title>
     <meta name="description" content="<%= locals.description %>">
     <link rel="stylesheet" href="/css/style.css">
-    <script type="text/Javascript" defer src="/js/script.js"></script>
+    <script type="text/javascript" defer src="/js/script.js"></script>
 </head>
 
 <body>
 
-    <%- include('../partials/Search.ejs') %>
-    <div class="container">
-        <%- include('../partials/header.ejs') %>
-            <div class="main">
-                <%- body %>
-            </div>
-            <%- include('../partials/footer.ejs') %>
-    </div>
+    <%- include('../partials/search.ejs') %>
+        <div class="container">
+            <%- include('../partials/header.ejs') %>
+                <main class="main">
+                    <%- body %>
+                </main>
+                <%- include('../partials/footer.ejs') %>
+        </div>
 
 </body>
 
