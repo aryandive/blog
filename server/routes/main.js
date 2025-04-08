@@ -149,7 +149,7 @@ router.get('/about', (req, res) => {
 //     },
 //     {
 //       title: "build real-time, event-driven applications in Node.js",
-//       body: "Socket.io: Learn how to use Socket.io to build real-time, event-driven applications in Node.js."
+//       body: "Learn how to use Socket.io to build real-time, event-driven applications in Node.js."
 //     },
 //     {
 //       title: "Discover how to use Express.js",

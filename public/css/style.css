@@ -297,7 +297,7 @@ img {
 
 .searchBar.open {
     transform: translatey(0px);
-    transition: transform 0.1s;
+    transition: transform 0.5s;
 }
 
 .searchBar input {
